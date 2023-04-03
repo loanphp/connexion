@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+header,footer {
+    height: 70px;
+    
+}
+header{
+    display: flex ;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+header a{
+    text-decoration: none;
+    background-color: aqua;
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+}
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    display: flex ;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+
+}
+
+h6{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+/* fichier css matcoef */
+
+.form1  {
+    margin-top: 20px;
+    padding: 40px 60px;
+    border-radius: 20px;
+    border:2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 15px 25px;
+    font-size: 15px;
+    outline:none;
+    cursor:pointer;
+    background-color: #f2f3f5;
+
+    
+
+}
+label{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+input{
+    margin-top: 10px;
+    border-radius: 5px;
+    border:none;
+    height: 35px;
+}
+
+
+
+ul span {
+    display: flex;
+    
+}
+li {
+    display: flex;
+    margin: 10px;
+}
+
+/* style css classe */
+
+.titre,.contenu {
+    display: flex;
+    border: 2px solid #000000;
+    height: 50px;
+    border-right: none;
+}
+.titre h3,.contenu div{
+    margin: 0 0 0 15px;
+    border-right: 2px solid #000000;
+    height: 100%;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.nom_de_l_eleve{
+    margin: 15px 0 15px 0;
+    border: 2px solid #000000;
+    
+}
+.info{
+    border: 2px solid #000000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.contenue{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.menu a{
+    color: #000000;
+    text-decoration: none;
+    margin: 15px;
+    border: 1px solid #000000;
+    padding: 0 15px 0 15px;
+}
+
+
+
