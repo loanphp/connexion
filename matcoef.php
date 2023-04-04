@@ -42,8 +42,10 @@ if (isset($_POST["matiere"],$_POST["coefficient"])){
             <span >
                 <?php  while($rst=$requete->fetch(PDO::FETCH_ASSOC)): ?>
                 <div class="essaie">
-                    <div><h5>nom de matiere :</h5><h3><?= $rst["nom_matiere"]?></h3></div>
-                    <div><h5>coefficient :</h5><h3><?= $rst["coefficient"]?></h3></div>
+                    <div class="essaie_content">
+                     <h5>nom de matiere :</h5><h3><?= $rst["nom_matiere"]?></h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <h5>coefficient :</h5><h3><?= $rst["coefficient"]?></h3>
+                </div>
                 </div>
                 <?php endwhile; ?>
                 

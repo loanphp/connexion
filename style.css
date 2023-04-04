@@ -156,5 +156,9 @@ li {
     padding: 0 15px 0 15px;
 }
 
-
+.essaie_content{
+    display: flex;
+    align-items: center;
+    padding: 0 15px 0 15px;
+}
 
